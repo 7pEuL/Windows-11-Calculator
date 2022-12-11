@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Win-11 Calculator by Eyu-Tech</title>
+
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css" /> -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./image/dove-solid.svg"
+      type="image/x-icon"
+    />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/67330faae8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- <div class="body"> -->
+    <div class="outSide">
+      <div class="inSide">
+        <div class="container">
+          <div class="imgCalculator">
+            <div class="nav">
+              <button class="menu"></button>
+              <span>Eyu-Tech</span>
+              <button class="keepOnTop"></button>
+              <button class="history"></button>
+            </div>
+
+            <div class="menuDropIcon hideSlideMenu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="dropMenu hideSlideMenu">
+              <div class="calculator">
+                <h5 class="firstTop">Calculator</h5>
+                <div>
+                  <i class="fa-solid fa-calculator"></i>
+                  <li>Standard</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-flask"></i>
+                  <li>Scientific</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-chart-line"></i>
+                  <li>Graphing</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                  <li>Programmer</li>
+                </div>
+                <div>
+                  <li>Date calculation</li>
+                </div>
+              </div>
+              <div class="converter">
+                <h5>Converter</h5>
+                <div>
+                  <li>Currency</li>
+                </div>
+                <div>
+                  <li>Volume</li>
+                </div>
+                <div>
+                  <li>Length</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-ruler-vertical"></i>
+                  <li>Weight and mass</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-weight-hanging"></i>
+                  <li>Temperature</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-temperature-half"></i>
+                  <li>Energy</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-fire"></i>
+                  <li>Area</li>
+                </div>
+                <div>
+                  <li>Speed</li>
+                </div>
+                <div>
+                  <i class="fa-solid fa-person-running"></i>
+                  <li>Time</li>
+                </div>
+                <div>
+                  <li>Power</li>
+                </div>
+                <div>
+                  <li>Data</li>
+                </div>
+                <div>
+                  <li>Pressure</li>
+                </div>
+                <div>
+                  <li>Angle</li>
+                </div>
+              </div>
+              <!-- <hr /> -->
+            </div>
+            <div class="settings hideSlideMenu">
+              <i class="fa-solid fa-gear"></i>
+              <div>Settings</div>
+            </div>
+
+            <div class="resultWork"></div>
+            <div class="resultPlace">0</div>
+            <div class="buttons">
+              <div class="mSeries">
+                <button class="bgNone rowSix mc"></button>
+                <button class="bgNone rowSix mr"></button>
+                <button class="bgNone rowSix mPlus"></button>
+                <button class="bgNone rowSix mMinus"></button>
+                <button class="bgNone rowSix ms"></button>
+                <button class="bgNone rowSix m"></button>
+              </div>
+              <!-- <br /> -->
+              <div class="hard">
+                <button
+                  class="dark rowFour percent calcBtn signs"
+                  value="%"
+                ></button>
+                <button class="dark rowFour ce"></button>
+                <button class="dark rowFour c"></button>
+                <button class="dark rowFour delete"></button>
+                <!-- <br /> -->
+                <button class="dark rowFour oneOverX calcBtn"></button>
+                <button class="dark rowFour xPowerTwo calcBtn"></button>
+                <button class="dark rowFour radicalX calcBtn"></button>
+                <button class="dark rowFour divider signs" value="/"></button>
+                <!-- <br /> -->
+                <button
+                  class="light rowFour seven calcBtn num"
+                  value="7"
+                ></button>
+                <button
+                  class="light rowFour eight calcBtn num"
+                  value="8"
+                ></button>
+                <button
+                  class="light rowFour nine calcBtn num"
+                  value="9"
+                ></button>
+                <button class="dark rowFour multiply signs" value="*"></button>
+                <!-- <br /> -->
+                <button
+                  class="light rowFour four calcBtn num"
+                  value="4"
+                ></button>
+                <button
+                  class="light rowFour five calcBtn num"
+                  value="5"
+                ></button>
+                <button
+                  class="light rowFour six calcBtn num"
+                  value="6"
+                ></button>
+                <button class="dark rowFour subtract signs" value="-"></button>
+                <!-- <br /> -->
+                <button
+                  class="light rowFour one calcBtn num"
+                  value="1"
+                ></button>
+                <button
+                  class="light rowFour two calcBtn num"
+                  value="2"
+                ></button>
+                <button
+                  class="light rowFour three calcBtn num"
+                  value="3"
+                ></button>
+                <button class="dark rowFour add signs" value="+"></button>
+                <!-- <br /> -->
+                <button
+                  class="light rowFour negative calcBtn"
+                  value="-"
+                ></button>
+                <button
+                  class="light rowFour zero calcBtn num"
+                  value="0"
+                ></button>
+                <button
+                  class="light rowFour dot calcBtn num"
+                  value="."
+                ></button>
+                <button class="bgNone rowFour equal" value="="></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.1.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+
+    <!-- Custom JS -->
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>

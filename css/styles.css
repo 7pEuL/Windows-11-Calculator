@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* outline: 0; */
+  transform: all 0.5s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: radial-gradient(#738ae4, #243a93);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.outSide {
+  /* background: radial-gradient(#75f3ef, #00b3ff); */
+  width: 340px;
+  height: 610px;
+  margin: 3px auto;
+  /* border: 1px solid white; */
+  /* border-radius: 10px; */
+}
+
+.inSide {
+  /* background: radial-gradient(#75f3ef, #0975a2); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  width: 337px;
+  height: 610px;
+  margin: 0 auto;
+  /* border: 1px solid #ffff00; */
+  /* border-radius: 50px; */
+}
+
+.container {
+  background: #021049ce;
+  width: 330px;
+  height: 537px;
+  margin: 0px auto;
+  border: 1px solid #ffff00;
+  border-radius: 10px;
+}
+
+.nav {
+  width: 330px;
+  margin-top: 33px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 12px;
+  /* background-color: #00b3ff; */
+}
+
+.nav button {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 1px solid #00ff006f;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav span {
+  color: white;
+  font-weight: 500;
+  font-size: 21px;
+  margin-left: 1px;
+}
+
+.nav .keepOnTop {
+  margin-left: 5px;
+}
+
+.nav .history {
+  margin-left: 112px;
+  border-radius: 50%;
+}
+
+.resultWork {
+  height: 30px;
+  width: 316px;
+  /* border: 1px solid #8cb4b8; */
+  border-radius: 5px;
+  font-size: 21px;
+  text-align: end;
+  padding-right: 7px;
+  color: white;
+}
+
+.resultPlace {
+  height: 80px;
+  width: 316px;
+  margin: 1px auto;
+  /* border: 1px solid #c8dbdc; */
+  border-radius: 5px;
+  font-size: 32px;
+  text-align: end;
+  padding-right: 7px;
+  color: white;
+}
+
+.imgCalculator {
+  background-image: url(../image/emptyWindow11CalculatorFancy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 522px;
+  width: 325px;
+  margin: 10px auto;
+  padding: 0 5px;
+  /* background-color: #0ecce9; */
+  /* border: 1px solid #777774; */
+  border-radius: 10px;
+  /* background-color: #00b3ff; */
+}
+
+.dark {
+  background-color: #1c1f2015;
+}
+
+.light {
+  background-color: #ffffff15;
+}
+
+.bgNone {
+  background-color: transparent;
+}
+
+.buttons {
+  width: 327px;
+  /* background-color: #ca0e0e63; */
+  margin: 0px auto;
+}
+
+.buttons button {
+  /* background-color: transparent; */
+  border: 1px solid #f8d40540;
+  border-radius: 5px;
+  color: white;
+  /* font-size: 0; */
+  cursor: pointer;
+}
+
+.mSeries {
+  display: flex;
+  margin: 3px 0;
+}
+
+.mSeries button {
+  border: 1px solid #05f82109;
+}
+
+.rowSix {
+  width: 23px;
+  height: 19px;
+}
+
+.mc {
+  margin-left: 17.7px;
+}
+
+.mr {
+  margin-left: 29px;
+}
+
+.mPlus {
+  margin-left: 29px;
+}
+
+.mMinus {
+  margin-left: 29px;
+}
+
+.ms {
+  margin-left: 30px;
+}
+
+.m {
+  margin-left: 30px;
+}
+
+.rowFour {
+  width: 75px;
+  height: 50px;
+  margin: 0.72px 0 0 .7px;
+}
+
+.hard {
+  /* width: 330px; */
+  /* background-color: #ffff00; */
+  margin-top: 7px;
+}
+
+.equal {
+  background: #009dff41;
+}
+
+.dropMenu {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 253px;
+  height: 400px;
+  background-color: #021049ce;
+  position: relative;
+  top: -37px;
+  left: -5px;
+  /* border-bottom-left-radius: 10px; */
+  /* border-top-right-radius: 10px; */
+  /* padding-top: 40px; */
+  color: white;
+  cursor: pointer;
+}
+
+.menuDropIcon {
+  position: relative;
+  top: -35px;
+  left: -10px;
+  width: 258px;
+  padding-left: 30px;
+  padding-top: 20px;
+  /* padding-bottom: 15px; */
+  border-top-right-radius: 10px;
+  background-color: #021049;
+  color: white;
+  cursor: pointer;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  background-color: #021049;
+  padding-left: 15px;
+  gap: 10px;
+  color: white;
+  font-size: 17px;
+  width: 254px;
+  height: 60px;
+  position: relative;
+  top: -39px;
+  left: -5px;
+  border-top: 1px solid white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.firstTop {
+  padding-top: 30px;
+  /* color: #ffff00; */
+}
+
+.dropMenu li {
+  list-style: none;
+}
+
+.dropMenu i {
+  color: white;
+}
+
+.calculator div {
+  display: flex;
+  align-items: center;
+  background-color: #021049ce;
+  gap: 15px;
+  padding: 10px 20px;
+}
+
+.converter div {
+  display: flex;
+  align-items: center;
+  background-color: #021049ce;
+  gap: 15px;
+  padding: 10px 20px;
+}
+
+.dropMenu h5 {
+  font-size: 17px;
+  background-color: #021049ce;
+  padding: 15px 20px;
+}
+
+.hideSlideMenu {
+  display: none;
+}
